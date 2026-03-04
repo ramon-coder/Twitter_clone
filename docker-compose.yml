@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DATABASE_URL=postgresql://user:password@db/subscriptions_db
+      - SECRET_KEY=your-secret-key-here
+      - STRIPE_API_KEY=sk_test_your_api_key
+      - STRIPE_WEBHOOK_SECRET=your_webhook_secret
+      - SENDGRID_API_KEY=your_sendgrid_api_key
+      - EMAIL_SENDER=no-reply@yourdomain.com
+      - ADMIN_EMAIL=admin@yourdomain.com
+    depends_on:
+      - db
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=subscriptions_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@yourdomain.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
