@@ -21,12 +21,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 .env
+.env.local
+.env.*.local
 *.db
 *.sqlite3
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 .DS_Store
 Thumbs.db
 .vscode/
@@ -34,3 +32,10 @@ Thumbs.db
 *.swp
 *.swo
 *~
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+alembic/versions/*.py
+!alembic/versions/.gitkeep

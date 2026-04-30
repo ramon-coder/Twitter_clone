@@ -3,7 +3,7 @@ Authentication Router for Subscription and Recurring Payments Management System
 
 This module provides authentication endpoints for user login, token refresh,
 and password management. It implements JWT-based authentication and password
-hashing.
+hashing with rate limiting protection.
 """
 
 import os
@@ -16,10 +16,15 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
-from main import get_db, SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
+from main import get_db, SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES, logger
 from models import User
+from middleware.rate_limit import rate_limit
 
 router = APIRouter()
+
+# Rate limiting for auth endpoints (5 attempts per 60 seconds)
+AUTH_RATE_LIMIT = int(os.getenv("AUTH_RATE_LIMIT", "5"))
+AUTH_RATE_WINDOW = int(os.getenv("AUTH_RATE_WINDOW", "60"))
 
 # Password hashing
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -85,25 +90,35 @@ def get_current_active_user(token: str = Depends(oauth2_scheme), db: Session = D
 @router.post("/token")
 async def login_for_access_token(
     form_data: OAuth2PasswordRequestForm = Depends(),
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    _: None = Depends(rate_limit(AUTH_RATE_LIMIT, AUTH_RATE_WINDOW))
 ):
     """
     Authenticate user and return access token.
-    
+
     Args:
         form_data: OAuth2 password request form with username and password
         db: Database session
-    
+
     Returns:
         Access token with type and expiration time
     """
     user = authenticate_user(db, form_data.username, form_data.password)
     if not user:
+        logger.warning(f"Failed login attempt for user: {form_data.username} from IP: {_}")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect username or password",
             headers={"WWW-Authenticate": "Bearer"},
         )
+
+    # Check if user is active
+    if not user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Inactive user"
+        )
+
     access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     access_token = create_access_token(
         data={"sub": user.username, "is_admin": user.is_admin},
@@ -118,11 +133,12 @@ async def register_user(
     password: str,
     full_name: Optional[str] = None,
     phone_number: Optional[str] = None,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    _: None = Depends(rate_limit(AUTH_RATE_LIMIT, AUTH_RATE_WINDOW))
 ):
     """
     Register a new user.
-    
+
     Args:
         username: Unique username for the new user
         email: Unique email address for the new user
@@ -130,7 +146,7 @@ async def register_user(
         full_name: Optional full name of the user
         phone_number: Optional phone number of the user
         db: Database session
-    
+
     Returns:
         Success message and user details
     """

@@ -7,38 +7,68 @@ services:
       - "8000:8000"
     volumes:
       - .:/app
+    env_file:
+      - .env
     environment:
       - DATABASE_URL=postgresql://user:password@db/subscriptions_db
-      - SECRET_KEY=your-secret-key-here
-      - STRIPE_API_KEY=sk_test_your_api_key
-      - STRIPE_WEBHOOK_SECRET=your_webhook_secret
-      - SENDGRID_API_KEY=your_sendgrid_api_key
-      - EMAIL_SENDER=no-reply@yourdomain.com
-      - ADMIN_EMAIL=admin@yourdomain.com
     depends_on:
-      - db
-    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+      db:
+        condition: service_healthy
+    command: >
+      sh -c "
+        echo 'Waiting for database...' &&
+        sleep 5 &&
+        alembic upgrade head &&
+        python seed.py ||
+        echo 'Seed skipped (not needed in production)' &&
+        uvicorn main:app --host 0.0.0.0 --port 8000
+      "
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
   db:
-    image: postgres:13
+    image: postgres:15-alpine
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_DB=subscriptions_db
+      POSTGRES_USER=user
+      POSTGRES_PASSWORD=password
+      POSTGRES_DB=subscriptions_db
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     ports:
       - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   pgadmin:
-    image: dpage/pgadmin4
+    image: dpage/pgadmin4:latest
     environment:
-      - PGADMIN_DEFAULT_EMAIL=admin@yourdomain.com
-      - PGADMIN_DEFAULT_PASSWORD=admin
+      PGADMIN_DEFAULT_EMAIL=admin@example.com
+      PGADMIN_DEFAULT_PASSWORD=admin
+      PGADMIN_CONFIG_SERVER_MODE=False
     ports:
       - "5050:80"
     depends_on:
       - db
+    profiles:
+      - tools
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    profiles:
+      - tools
 
 volumes:
   postgres_data:
+  redis_data:
