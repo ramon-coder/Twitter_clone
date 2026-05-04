@@ -1,0 +1,1054 @@
+2026-05-04 10:03:03,633 - main - INFO - Starting application...
+2026-05-04 10:03:03,730 - main - INFO - Database tables created/verified
+2026-05-04 10:03:03,730 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:03:03,818 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:03:03,818 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:03:03,818 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:03:03,818 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:03:03,832 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 10:03:03,835 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 10:03:03,839 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 10:03:03,843 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 10:03:03,843 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 10:03:03,845 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 10:03:03,845 - main - INFO - Application started in development mode
+2026-05-04 10:45:34,746 - main - INFO - Starting application...
+2026-05-04 10:45:34,749 - main - INFO - Database tables created/verified
+2026-05-04 10:45:34,750 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:34,869 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:45:34,869 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:45:34,870 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:45:34,871 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:45:34,879 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 10:45:34,883 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 10:45:34,887 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 10:45:34,890 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 10:45:34,890 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 10:45:34,892 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 10:45:34,892 - main - INFO - Application started in development mode
+2026-05-04 10:45:34,901 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,044 - main - INFO - Starting application...
+2026-05-04 10:45:35,045 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,045 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,045 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,046 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,050 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,053 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,066 - main - INFO - Starting application...
+2026-05-04 10:45:35,067 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,068 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,068 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,068 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,071 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,074 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,086 - main - INFO - Starting application...
+2026-05-04 10:45:35,088 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,088 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,088 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,088 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,092 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,105 - main - INFO - Starting application...
+2026-05-04 10:45:35,106 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,107 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,107 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,107 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,110 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,113 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,125 - main - INFO - Starting application...
+2026-05-04 10:45:35,127 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,127 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,127 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,127 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,131 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,133 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,145 - main - INFO - Starting application...
+2026-05-04 10:45:35,146 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,146 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,146 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,146 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,150 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,152 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,164 - main - INFO - Starting application...
+2026-05-04 10:45:35,166 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,166 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,166 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,167 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,171 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,173 - httpx - INFO - HTTP Request: POST http://testserver/auth/reset-password "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,186 - main - INFO - Starting application...
+2026-05-04 10:45:35,187 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,187 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,187 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,187 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,191 - httpx - INFO - HTTP Request: POST http://testserver/auth/reset-password "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,198 - main - INFO - Starting application...
+2026-05-04 10:45:35,199 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,199 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,199 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,200 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,203 - httpx - INFO - HTTP Request: GET http://testserver/plans/ "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,217 - main - INFO - Starting application...
+2026-05-04 10:45:35,218 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,218 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,218 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,218 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,221 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,223 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,237 - main - INFO - Starting application...
+2026-05-04 10:45:35,239 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,239 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,239 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,239 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,244 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,246 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,261 - main - INFO - Starting application...
+2026-05-04 10:45:35,262 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,263 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,263 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,263 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,266 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,268 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,282 - main - INFO - Starting application...
+2026-05-04 10:45:35,283 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,283 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,283 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,284 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,287 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,289 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,304 - main - INFO - Starting application...
+2026-05-04 10:45:35,305 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,305 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,305 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,306 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,309 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,311 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,324 - main - INFO - Starting application...
+2026-05-04 10:45:35,325 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,325 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,325 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,326 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,328 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,331 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,344 - main - INFO - Starting application...
+2026-05-04 10:45:35,345 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,346 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,346 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,346 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,349 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,352 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,366 - main - INFO - Starting application...
+2026-05-04 10:45:35,367 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,367 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,368 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,368 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,371 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,373 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,389 - main - INFO - Starting application...
+2026-05-04 10:45:35,391 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,391 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,391 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,391 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,395 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,397 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,413 - main - INFO - Starting application...
+2026-05-04 10:45:35,415 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,415 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,415 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,415 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,419 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,421 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,438 - main - INFO - Starting application...
+2026-05-04 10:45:35,439 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,439 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,440 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,440 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,442 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,444 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,461 - main - INFO - Starting application...
+2026-05-04 10:45:35,462 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,462 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,462 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,462 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,466 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,468 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,485 - main - INFO - Starting application...
+2026-05-04 10:45:35,486 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,486 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,487 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,487 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,490 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,492 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,508 - main - INFO - Starting application...
+2026-05-04 10:45:35,510 - main - INFO - Database tables created/verified
+2026-05-04 10:45:35,510 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:45:35,510 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:45:35,510 - main - INFO - Application started in development mode
+2026-05-04 10:45:35,513 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:45:35,515 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,307 - main - INFO - Starting application...
+2026-05-04 10:47:25,310 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,310 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,424 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:47:25,424 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:47:25,424 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:47:25,465 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:47:25,477 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 10:47:25,482 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 10:47:25,486 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 10:47:25,489 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 10:47:25,489 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 10:47:25,492 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 10:47:25,492 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,500 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,624 - main - INFO - Starting application...
+2026-05-04 10:47:25,626 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,626 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,626 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,626 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,629 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,632 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,643 - main - INFO - Starting application...
+2026-05-04 10:47:25,645 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,645 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,645 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,645 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,648 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,650 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,662 - main - INFO - Starting application...
+2026-05-04 10:47:25,663 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,663 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,664 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,664 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,667 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,678 - main - INFO - Starting application...
+2026-05-04 10:47:25,680 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,680 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,680 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,680 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,683 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,685 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,697 - main - INFO - Starting application...
+2026-05-04 10:47:25,698 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,698 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,698 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,698 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,703 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,705 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,769 - main - INFO - Starting application...
+2026-05-04 10:47:25,770 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,770 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,770 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,771 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,774 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,776 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,789 - main - INFO - Starting application...
+2026-05-04 10:47:25,791 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,791 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,791 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,791 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,795 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,797 - httpx - INFO - HTTP Request: POST http://testserver/auth/reset-password "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,809 - main - INFO - Starting application...
+2026-05-04 10:47:25,810 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,810 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,810 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,811 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,814 - httpx - INFO - HTTP Request: POST http://testserver/auth/reset-password "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:25,820 - main - INFO - Starting application...
+2026-05-04 10:47:25,822 - main - INFO - Database tables created/verified
+2026-05-04 10:47:25,822 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:25,822 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:25,822 - main - INFO - Application started in development mode
+2026-05-04 10:47:25,825 - main - WARNING - HTTP 401: Not authenticated - Path: /plans/
+2026-05-04 10:47:25,825 - main - ERROR - Unhandled exception: 'dict' object is not callable - Path: /plans/
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 85, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    |     self.gen.throw(value)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 91, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\middleware\rate_limit.py", line 120, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    |     raise app_exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 762, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 782, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 297, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 77, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 78, in wrapped_app
+    |     await response(scope, receive, sender)
+    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | TypeError: 'dict' object is not callable
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 91, in collapse_excgroups
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\middleware\rate_limit.py", line 120, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 762, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 782, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 78, in wrapped_app
+    await response(scope, receive, sender)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+2026-05-04 10:47:26,449 - main - INFO - Starting application...
+2026-05-04 10:47:26,451 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,451 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,451 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,451 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,455 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,457 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,470 - main - INFO - Starting application...
+2026-05-04 10:47:26,471 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,471 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,472 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,472 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,475 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,477 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,490 - main - INFO - Starting application...
+2026-05-04 10:47:26,491 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,491 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,491 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,492 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,496 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,498 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,511 - main - INFO - Starting application...
+2026-05-04 10:47:26,512 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,512 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,512 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,513 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,516 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,518 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,531 - main - INFO - Starting application...
+2026-05-04 10:47:26,533 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,533 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,533 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,533 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,536 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,538 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,552 - main - INFO - Starting application...
+2026-05-04 10:47:26,553 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,553 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,553 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,553 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,556 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,558 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,572 - main - INFO - Starting application...
+2026-05-04 10:47:26,573 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,573 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,573 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,573 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,577 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,579 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,592 - main - INFO - Starting application...
+2026-05-04 10:47:26,593 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,593 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,594 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,594 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,597 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,600 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,617 - main - INFO - Starting application...
+2026-05-04 10:47:26,619 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,619 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,619 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,620 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,623 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,625 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,643 - main - INFO - Starting application...
+2026-05-04 10:47:26,645 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,645 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,645 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,645 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,649 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,651 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,669 - main - INFO - Starting application...
+2026-05-04 10:47:26,671 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,671 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,671 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,671 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,674 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,677 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,695 - main - INFO - Starting application...
+2026-05-04 10:47:26,696 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,696 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,697 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,697 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,701 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,704 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,721 - main - INFO - Starting application...
+2026-05-04 10:47:26,723 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,723 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,723 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,723 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,728 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,730 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,749 - main - INFO - Starting application...
+2026-05-04 10:47:26,750 - main - INFO - Database tables created/verified
+2026-05-04 10:47:26,750 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:47:26,750 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:47:26,750 - main - INFO - Application started in development mode
+2026-05-04 10:47:26,754 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:47:26,756 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,502 - main - INFO - Starting application...
+2026-05-04 10:48:27,506 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,506 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,622 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:48:27,623 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:48:27,623 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:48:27,664 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:48:27,677 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 10:48:27,682 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 10:48:27,685 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 10:48:27,688 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 10:48:27,688 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 10:48:27,690 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 10:48:27,690 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,698 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,821 - main - INFO - Starting application...
+2026-05-04 10:48:27,823 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,823 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,823 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:27,823 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,827 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,829 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,841 - main - INFO - Starting application...
+2026-05-04 10:48:27,842 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,842 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,843 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:27,843 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,846 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,848 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,860 - main - INFO - Starting application...
+2026-05-04 10:48:27,861 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,861 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,861 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:27,861 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,864 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,876 - main - INFO - Starting application...
+2026-05-04 10:48:27,878 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,878 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,878 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:27,878 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,881 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,883 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,895 - main - INFO - Starting application...
+2026-05-04 10:48:27,896 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,897 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,897 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:27,897 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,900 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,902 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,915 - main - INFO - Starting application...
+2026-05-04 10:48:27,917 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,917 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,917 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:27,917 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,972 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,974 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,986 - main - INFO - Starting application...
+2026-05-04 10:48:27,988 - main - INFO - Database tables created/verified
+2026-05-04 10:48:27,988 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:27,988 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:27,988 - main - INFO - Application started in development mode
+2026-05-04 10:48:27,993 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:27,995 - httpx - INFO - HTTP Request: POST http://testserver/auth/reset-password "HTTP/1.1 404 Not Found"
+2026-05-04 10:48:28,007 - main - INFO - Starting application...
+2026-05-04 10:48:28,008 - main - INFO - Database tables created/verified
+2026-05-04 10:48:28,008 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:48:28,008 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:48:28,008 - main - INFO - Application started in development mode
+2026-05-04 10:48:28,012 - httpx - INFO - HTTP Request: POST http://testserver/auth/reset-password "HTTP/1.1 404 Not Found"
+2026-05-04 10:49:13,875 - main - INFO - Starting application...
+2026-05-04 10:49:13,879 - main - INFO - Database tables created/verified
+2026-05-04 10:49:13,879 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:49:14,005 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:49:14,005 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:49:14,006 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:49:14,045 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:49:14,055 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 10:49:14,061 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 10:49:14,065 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 10:49:14,069 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 10:49:14,069 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 10:49:14,072 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 10:49:14,072 - main - INFO - Application started in development mode
+2026-05-04 10:49:14,087 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 422 Unprocessable Entity"
+2026-05-04 10:49:14,221 - main - INFO - Starting application...
+2026-05-04 10:49:14,222 - main - INFO - Database tables created/verified
+2026-05-04 10:49:14,223 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:49:14,223 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:49:14,223 - main - INFO - Application started in development mode
+2026-05-04 10:49:14,229 - httpx - INFO - HTTP Request: POST http://testserver/auth/register "HTTP/1.1 422 Unprocessable Entity"
+2026-05-04 10:49:14,259 - main - WARNING - Failed login attempt for user: loginuser from IP: None
+2026-05-04 10:49:14,260 - main - WARNING - HTTP 401: Incorrect username or password - Path: /auth/token
+2026-05-04 10:49:14,261 - httpx - INFO - HTTP Request: POST http://testserver/auth/token "HTTP/1.1 401 Unauthorized"
+2026-05-04 10:52:00,748 - main - INFO - Starting application...
+2026-05-04 10:52:00,752 - main - INFO - Database tables created/verified
+2026-05-04 10:52:00,752 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:52:00,900 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:52:00,901 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:52:00,901 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:52:00,902 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 10:52:00,915 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 10:52:00,919 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 10:52:00,923 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 10:52:00,929 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 10:52:00,929 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 10:52:00,932 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 10:52:00,932 - main - INFO - Application started in development mode
+2026-05-04 10:52:00,979 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-04 10:52:01,014 - main - ERROR - Unhandled exception: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72]) - Path: /auth/register
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 85, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    |     self.gen.throw(value)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 91, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\middleware\rate_limit.py", line 120, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    |     raise app_exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 762, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 782, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 297, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 77, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 72, in app
+    |     response = await func(request)
+    |                ^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 299, in app
+    |     raise e
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 294, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 175, in register_user
+    |     hashed_password = get_password_hash(password)
+    |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 42, in get_password_hash
+    |     return pwd_context.hash(password)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\context.py", line 2258, in hash
+    |     return record.hash(secret, **kwds)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 779, in hash
+    |     self.checksum = self._calc_checksum(secret)
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    |     self._stub_requires_backend()
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    |     cls.set_backend()
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    |     return owner.set_backend(name, dryrun=dryrun)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2163, in set_backend
+    |     return cls.set_backend(name, dryrun=dryrun)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2188, in set_backend
+    |     cls._set_backend(name, dryrun)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2311, in _set_backend
+    |     super(SubclassBackendMixin, cls)._set_backend(name, dryrun)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2224, in _set_backend
+    |     ok = loader(**kwds)
+    |          ^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 626, in _load_backend_mixin
+    |     return mixin_cls._finalize_backend_mixin(name, dryrun)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 421, in _finalize_backend_mixin
+    |     if detect_wrap_bug(IDENT_2A):
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 380, in detect_wrap_bug
+    |     if verify(secret, bug_hash):
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    |     return consteq(self._calc_checksum(secret), chk)
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 655, in _calc_checksum
+    |     hash = _bcrypt.hashpw(secret, config)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | ValueError: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 91, in collapse_excgroups
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\middleware\rate_limit.py", line 120, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 762, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 782, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 299, in app
+    raise e
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 175, in register_user
+    hashed_password = get_password_hash(password)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 42, in get_password_hash
+    return pwd_context.hash(password)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\context.py", line 2258, in hash
+    return record.hash(secret, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 779, in hash
+    self.checksum = self._calc_checksum(secret)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2163, in set_backend
+    return cls.set_backend(name, dryrun=dryrun)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2188, in set_backend
+    cls._set_backend(name, dryrun)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2311, in _set_backend
+    super(SubclassBackendMixin, cls)._set_backend(name, dryrun)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2224, in _set_backend
+    ok = loader(**kwds)
+         ^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 626, in _load_backend_mixin
+    return mixin_cls._finalize_backend_mixin(name, dryrun)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 421, in _finalize_backend_mixin
+    if detect_wrap_bug(IDENT_2A):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 380, in detect_wrap_bug
+    if verify(secret, bug_hash):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 655, in _calc_checksum
+    hash = _bcrypt.hashpw(secret, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-05-04 10:52:02,388 - main - INFO - Starting application...
+2026-05-04 10:52:02,390 - main - INFO - Database tables created/verified
+2026-05-04 10:52:02,390 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 10:52:02,390 - services.scheduled_tasks - INFO - Scheduler already running
+2026-05-04 10:52:02,390 - main - INFO - Application started in development mode
+2026-05-04 10:52:02,396 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-04 10:52:02,405 - main - ERROR - Unhandled exception: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72]) - Path: /auth/register
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 85, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\anyio\_backends\_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    |     self.gen.throw(value)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 91, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\middleware\rate_limit.py", line 120, in dispatch
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    |     raise app_exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 762, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 782, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 297, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 77, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    |     raise exc
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 72, in app
+    |     response = await func(request)
+    |                ^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 299, in app
+    |     raise e
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 294, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 175, in register_user
+    |     hashed_password = get_password_hash(password)
+    |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 42, in get_password_hash
+    |     return pwd_context.hash(password)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\context.py", line 2258, in hash
+    |     return record.hash(secret, **kwds)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 779, in hash
+    |     self.checksum = self._calc_checksum(secret)
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    |     self._stub_requires_backend()
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    |     cls.set_backend()
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    |     return owner.set_backend(name, dryrun=dryrun)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2163, in set_backend
+    |     return cls.set_backend(name, dryrun=dryrun)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2188, in set_backend
+    |     cls._set_backend(name, dryrun)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2311, in _set_backend
+    |     super(SubclassBackendMixin, cls)._set_backend(name, dryrun)
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2224, in _set_backend
+    |     ok = loader(**kwds)
+    |          ^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 626, in _load_backend_mixin
+    |     return mixin_cls._finalize_backend_mixin(name, dryrun)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 421, in _finalize_backend_mixin
+    |     if detect_wrap_bug(IDENT_2A):
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 380, in detect_wrap_bug
+    |     if verify(secret, bug_hash):
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    |     return consteq(self._calc_checksum(secret), chk)
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 655, in _calc_checksum
+    |     hash = _bcrypt.hashpw(secret, config)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | ValueError: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_utils.py", line 91, in collapse_excgroups
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\middleware\rate_limit.py", line 120, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 762, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 782, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 299, in app
+    raise e
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 175, in register_user
+    hashed_password = get_password_hash(password)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\personal\API de Sistema de Gestión de Suscripciones y Pagos Recurrentes\routers\auth.py", line 42, in get_password_hash
+    return pwd_context.hash(password)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\context.py", line 2258, in hash
+    return record.hash(secret, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 779, in hash
+    self.checksum = self._calc_checksum(secret)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 591, in _calc_checksum
+    self._stub_requires_backend()
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2254, in _stub_requires_backend
+    cls.set_backend()
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2156, in set_backend
+    return owner.set_backend(name, dryrun=dryrun)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2163, in set_backend
+    return cls.set_backend(name, dryrun=dryrun)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2188, in set_backend
+    cls._set_backend(name, dryrun)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2311, in _set_backend
+    super(SubclassBackendMixin, cls)._set_backend(name, dryrun)
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 2224, in _set_backend
+    ok = loader(**kwds)
+         ^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 626, in _load_backend_mixin
+    return mixin_cls._finalize_backend_mixin(name, dryrun)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 421, in _finalize_backend_mixin
+    if detect_wrap_bug(IDENT_2A):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 380, in detect_wrap_bug
+    if verify(secret, bug_hash):
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\utils\handlers.py", line 792, in verify
+    return consteq(self._calc_checksum(secret), chk)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\AppData\Local\Programs\Python\Python312\Lib\site-packages\passlib\handlers\bcrypt.py", line 655, in _calc_checksum
+    hash = _bcrypt.hashpw(secret, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-05-04 11:19:45,498 - main - INFO - Starting application...
+2026-05-04 11:19:45,501 - main - INFO - Database tables created/verified
+2026-05-04 11:19:45,501 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 11:19:45,602 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:19:45,603 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:19:45,603 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:19:45,603 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:19:45,610 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 11:19:45,616 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 11:19:45,620 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 11:19:45,624 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 11:19:45,624 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 11:19:45,626 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 11:19:45,626 - main - INFO - Application started in development mode
+2026-05-04 11:20:31,966 - main - INFO - Starting application...
+2026-05-04 11:20:31,969 - main - INFO - Database tables created/verified
+2026-05-04 11:20:31,969 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 11:20:32,042 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:20:32,043 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:20:32,043 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:20:32,043 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:20:32,091 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 11:20:32,095 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 11:20:32,100 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 11:20:32,103 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 11:20:32,103 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 11:20:32,105 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 11:20:32,106 - main - INFO - Application started in development mode
+2026-05-04 11:28:40,577 - main - INFO - Starting application...
+2026-05-04 11:28:40,620 - main - INFO - Database tables created/verified
+2026-05-04 11:28:40,620 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 11:28:40,683 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:28:40,683 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:28:40,683 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:28:40,683 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 11:28:40,691 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 11:28:40,695 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 11:28:40,700 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 11:28:40,704 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 11:28:40,704 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 11:28:40,706 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 11:28:40,706 - main - INFO - Application started in development mode
+2026-05-04 16:01:10,659 - main - INFO - Starting application...
+2026-05-04 16:01:10,663 - main - INFO - Database tables created/verified
+2026-05-04 16:01:10,664 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 16:01:10,758 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:01:10,758 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:01:10,761 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:01:10,761 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:01:10,768 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 16:01:10,774 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 16:01:10,777 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 16:01:10,780 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 16:01:10,780 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 16:01:10,781 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 16:01:10,781 - main - INFO - Application started in development mode
+2026-05-04 16:27:42,383 - main - INFO - Starting application...
+2026-05-04 16:27:42,429 - main - INFO - Database tables created/verified
+2026-05-04 16:27:42,430 - main - INFO - SECRET_KEY is properly configured
+2026-05-04 16:27:42,487 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:27:42,487 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:27:42,488 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:27:42,488 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-04 16:27:42,495 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.send_renewal_reminders" to job store "default"
+2026-05-04 16:27:42,499 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_expired_subscriptions" to job store "default"
+2026-05-04 16:27:42,503 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.check_overdue_payments" to job store "default"
+2026-05-04 16:27:42,507 - apscheduler.scheduler - INFO - Added job "ScheduledTasks.generate_monthly_report" to job store "default"
+2026-05-04 16:27:42,507 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-04 16:27:42,509 - services.scheduled_tasks - INFO - Scheduled tasks started successfully
+2026-05-04 16:27:42,509 - main - INFO - Application started in development mode
